@@ -4,6 +4,6 @@
 */
 void insertion_sort(vector<int> v, int n) {
     for (int k = 1; k < n; k++)
-        for (int i = k; i > 0 && a[i - 1] < a[i]; i--)
-            swap(a[i], a[i - 1]);
+        for (int i = k; i > 0 && v[i - 1] < v[i]; i--)
+            swap(v[i], v[i - 1]);
 }
